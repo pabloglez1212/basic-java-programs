@@ -24,33 +24,8 @@ public class MainClass {
         System.out.println("CRUSHED:");
         headNode = headNode.crushNodes(headNode);
         headNode.printList(headNode);
-        /*System.out.println("DELETE:");
+        System.out.println("DELETE:");
         headNode = headNode.deleteNode(headNode,2);
-        headNode.printList(headNode);*/
+        headNode.printList(headNode);
     }
-
-    /*public static void candyArray(){
-        int[] numArray = {8,1,1,1,5,3,3,4,2,2,2,2,2,0,2,2,1,19,19,20,20,20,20,4,4,3};
-
-        Stack<Integer> stack = new Stack<Integer>();
-        boolean repeated = false;
-
-        stack.push(numArray[0]);
-        for(int i = 1; i < numArray.length; i++){
-            if(stack.peek() == numArray[i]){
-                repeated = true;
-            } else if(repeated){
-                stack.pop();
-                stack.push(numArray[i]);
-                repeated = false;
-            } else{
-                stack.push(numArray[i]);
-            }
-        }
-        if(repeated)
-            stack.pop();
-        System.out.println(stack);
-
-    }*/
-
 }
